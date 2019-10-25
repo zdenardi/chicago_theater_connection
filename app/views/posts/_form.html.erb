@@ -26,6 +26,10 @@
     <%= form.check_box :visible %>
   </div>
 
+  <div class="field">
+  <%= form.label :post_type%>
+  <%= form.select(:post_type, ['EPA','Class Recommendation','Discount Code','Question','Admin','Announcements'])  %>
+  </div>
   <div class="actions">
     <%= form.submit %>
   </div>
